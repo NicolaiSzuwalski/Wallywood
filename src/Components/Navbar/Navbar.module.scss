@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+
+
+.navContainer{
+    ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 2.5rem;
+    margin-bottom: 0;
+        li{
+            a{
+                text-decoration: none;
+                color: #000000;
+                font-size: 18px;
+                font-family: 'Titillium Web', sans-serif;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

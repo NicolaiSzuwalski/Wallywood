@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+
+
+.Header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid #d97852;
+    align-items: center;
+    margin: 40px;
+
+    h2{
+        color: #d97852;
+        font-size: 54px;
+        font-family: 'Titillium Web', sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
